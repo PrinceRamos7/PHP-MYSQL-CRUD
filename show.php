@@ -28,13 +28,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Show</title>
+    <link rel="icon" href="Favicon.jpg">
 </head>
 <body>
     <div>
+        <div>
         <button><a href="add.php">Add</a></button> 
         <form action="show.php" method="GET">
         <input type="text" name="search" placeholder="Search" value="<?php echo $_GET['search'] ?? '';?>">
         </form>
+        </div>
         <table border="2">
             <thead>
                 <tr>

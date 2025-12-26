@@ -13,11 +13,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Edit</title>
+    <link rel="icon" href="Favicon.jpg">
 </head>
 <body>
-    <form action="code.php" method="POST">
+    <div class="edit_content">
+                <form action="code.php" method="POST">
         <div>
             <input type="hidden" name="id" value="<?= $info['id'] ?>">
+        </div>
+        <div id="Title">
+            <h2>Edit</h2>
         </div>
         <div>
             <label>Name:</label> <br>
@@ -39,6 +44,8 @@
             <button><a href="show.php">Cancel</a></button>
         </div>
     </form>
+
+    </div>
 </body>
 </html>
 
