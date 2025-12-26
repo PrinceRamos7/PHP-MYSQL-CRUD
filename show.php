@@ -28,7 +28,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Show</title>
-    <link rel="icon" href="Favicon.jpg">
+    <link rel="icon" href="Favicon.png">
 </head>
 <body>
     <div>
